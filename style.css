@@ -15,9 +15,9 @@ body{
     max-width: 600px;
     position: relative;
     height: 600px;
-    overflow: hidden;
     width: 100%;
-    background-image: url('./assets/background.png')
+    background-image: url('./assets/background.png');
+    overflow: hidden;
 }
 
 
@@ -135,18 +135,18 @@ body{
 }
 
 #logo{
-    transition: right 0.3s ease;
     position: absolute; 
-    right: 100%;
+    left: -40%;
     z-index: 5;
+    transition: left 0.3s ease;
 } 
 
 #logo.logoSlide-left{
-    right: -1%;
+    left: 50%;
 }
 
 #logo.logoSlide-out{
-    left: -100%; 
+    left: -40%; 
 }
 
 /*******************/

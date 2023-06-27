@@ -82,13 +82,8 @@ function logoSlideLeft(){
     logo.classList.remove("logoSlide-out");
 }
 
-function logoSlideRight(){
-    logo.classList.add("logoSlide-out");
-    logo.classList.remove("logoSlide-left");
-}
 
 setTimeout(logoSlideLeft, 6000);
-
 
 
 ///////////////////////////////////////
